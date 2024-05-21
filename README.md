@@ -1,4 +1,22 @@
 # RAG_Take_Home_Assessment
+## Project Overview: 
+Task: Implement a Simple To-Do List Web Application with AI Integration and Data
+Engineering Components
+Problem Statement
+Develop a RAG-based AI chatbot designed to provide technical support for customers
+of a tech company specializing in consumer electronics. The chatbot should help users
+troubleshoot common issues, provide step-by-step guides, and offer information on
+warranty and repair services.
+Details:
+Knowledge Base: The chatbot should leverage a database of product manuals, FAQ
+documents, user forums, and help articles to fetch relevant information to assist users.
+User Queries: The chatbot must handle a wide range of user queries, from simple
+questions like "How do I reset my device?" to more complex troubleshooting requests.
+Response Generation: Utilizing RAG, the chatbot should retrieve relevant documents
+and generate coherent and contextually appropriate answers that guide the users
+through their issues or direct them to the appropriate resources.
+
+
 Required Libraries: 
 import torch
 from transformers import AutoModel, AutoTokenizer, GPT2LMHeadModel, GPT2Tokenizer
