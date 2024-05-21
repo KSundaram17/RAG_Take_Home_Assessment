@@ -17,11 +17,8 @@ and generate coherent and contextually appropriate answers that guide the users
 through their issues or direct them to the appropriate resources.
 
 
-Required Libraries: 
-import torch
-from transformers import AutoModel, AutoTokenizer, GPT2LMHeadModel, GPT2Tokenizer
-from sklearn.metrics.pairwise import cosine_similarity
-import psycopg2: To read and write from and to Redshift
+### Required Libraries: 
+pip install torch transformers sklearn faiss-gpu psycopg2
 
 For Best Practices:
 We can store the credentials, host name and port that will be used for Redshift in AWS Secret Manager. Due to time crunch, I haven't done that. Step to store the credentials in AWS Secret Manager are as follows:
